@@ -1,0 +1,58 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  min-width: 300px;
+  background: linear-gradient(180deg, #4568dc 0%, #b06ab3 100%);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ticket {
+  background: white;
+  width: 296px;
+  border-radius: 8px;
+  padding: 14px 11px 24px 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 14px;
+}
+
+.title {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.span {
+  font-weight: 300;
+}
+
+.button {
+  border-radius: 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  width: 178px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
